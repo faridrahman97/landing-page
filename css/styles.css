@@ -22,6 +22,9 @@ body {
 .content-left-side {
     display: flex;
     flex-direction: column;
+    width: 400px; 
+    padding-left: 48px;
+    margin-right: auto;
 }
 
 
@@ -47,6 +50,22 @@ body {
     color: #E5E7EB;
 }
 
+.content {
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.image-container {
+    padding-right: 48px;
+    margin-left: auto;
+}
+
+img {
+    width: 450px;
+    height: 250px;
+    padding-top: 80px;
+}
 button {
     background: #3882F6;
     color: #E5E7EB;
@@ -56,3 +75,5 @@ button {
     padding: 8px;
     text-align: center;
 }
+
+
